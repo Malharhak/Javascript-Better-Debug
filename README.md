@@ -12,16 +12,23 @@ To debug complex applications, you need some little things :
 
 1. Insert the debug object in your code (this lib is require.js-friendly).
 2. Change the config to enable/disable some things
-		
-		this.logs = true; // Classic logs
-		this.warns = true; // Warns, they appear with a warning sign in chrome
-		this.errors = true; // Red stuff. That's for bad stuff. Mostly.
+
+```javascript
+	this.logs = true; // Classic logs
+	this.warns = true; // Warns, they appear with a warning sign in chrome
+	this.errors = true; // Red stuff. That's for bad stuff. Mostly.
+```	
+
 
 3. Log things
 	
-		debug.log("tag", "stuff", [1, 2, 3], {"test" : "hi"});
-		debug.warn("tag", "O HAI");
-		debug.error("tag", "Look, I'm an error.");
+``javascript
+	debug.log("tag", "stuff", [1, 2, 3], {"test" : "hi"});
+	debug.warn("tag", "O HAI");
+	debug.error("tag", "Look, I'm an error.");
+```
+
+Oh and here's a screenshot : http://prntscr.com/wupyj
 
 ##Other stuff :
 
