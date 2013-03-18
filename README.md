@@ -21,14 +21,15 @@ To debug complex applications, you need some little things :
 
 
 3. Log things
-	
+
+
 ```javascript
 	debug.log("tag", "stuff", [1, 2, 3], {"test" : "hi"});
 	debug.warn("tag", "O HAI");
 	debug.error("tag", "Look, I'm an error.");
 ```
 
-Oh and here's a screenshot : http://prntscr.com/wupyj
+Oh and here's a screenshot : http://prntscr.com/wurji
 
 ##Other stuff :
 
