@@ -33,4 +33,5 @@ Oh and here's a screenshot : http://prntscr.com/wupyj
 ##Other stuff :
 
 If you don't put any tag, it will show as "[UNTAGGED] : "
-I think there is some color stuff possible with the console. If anyone wants to add these features...
+
+I think there is some color stuff possible with the console. If anyone wants to add these features... :)
